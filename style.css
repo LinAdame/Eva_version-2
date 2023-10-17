@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff1e6;
+    
+}
+
+
+header{
+    padding:20px 30px; 
+    background-color: #282425;
+    text-align:center;
+   
+    display: flex;   
+}
+
+header ul{
+    justify-content: flex-end;
+   
+}
+
+header div{
+    height: 144px;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+/* menu */
+.menu{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    color: #fff1e6;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: small;
+}
+
+.menu a:hover, 
+.menu a:focus, 
+.menu a:active {
+        color: black;
+        background-color: #fff1e6;
+    }
+
+
+
+
+main{
+    background-image: url(/obrazky/DSC_1311a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    padding-bottom: 15px;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 6px 20px rgb(255, 255, 255);    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+main p{
+    background-color: transparent;
+
+}
+
+.resis{
+    background: linear-gradient(#867c6f, #fff1e6);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.rtt{    
+    background-color: #fff1e6;
+}
+
+.varianty{
+    display: flex;
+}
+
+.varianty div{ 
+    font-size: x-large;
+    background: linear-gradient(#867c6f, #fff1e6);
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+   
+    
+}
+
+.psychosomatika{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.psychosomatika div{
+    margin: 20px;
+    padding: 20px;
+}
+
+.psychosomatika h3, h4{
+    margin: 10px;
+}
+
+
+/* Rámeček */
+.tabulka{
+    border: 2px solid black;
+    margin: 50px;
+    font-size: 20px;
+    background-color: rgb(244, 235, 235);
+}
+
+
+section {
+    padding: 50px 15%;
+    margin: 0;
+    overflow: auto;
+}
+
+.recenze{
+    display: flex;   
+}
+
+.recenze div{
+    background: linear-gradient(#867c6f, #fff1e6);
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+
+}
+
+
+
+h2{
+    padding: 30px 15%;
+    overflow: auto;
+}
+
+
+
+.formular{
+    margin: 1%;
+    padding: 10px;
+    border: 2px solid black;
+    background: linear-gradient(#f9e3d0, white);
+    border-radius: 20px;
+}
+
+
+
+.fotoOmne{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.fotoKontakt{
+    width: 30%;
+    float: right;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.sezeni{
+    background-color: #f9e3d0;
+}
+
+
+
+.arrowUp{
+    padding: 5px;
+    margin: 15px 5px 5px;
+    width: 50px;
+    height: 50px;
+    
+   
+}
+
+.kontakt{
+
+    background-color: #fff1e6;
+
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.kontakt img{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.kontakt h2{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.kontakt p{
+    padding: 20px;
+}
+
+
+.paticka {
+    background-color: #282425;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
